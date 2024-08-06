@@ -1,0 +1,11 @@
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3]
+BATCH_SIZE: 32
+INCLUDE_TOP: False
+EPOCHS: 1
+ClASSES: 2
+WEIGHTS: 'imagenet'
+LEARNING_RATE: 0.01
+
+# We are vvg16 so for this actually I also need image size batch size like these parameter instead of hard coding in my model okay in my componenet
+# I keep it as separate so that whenever I want to change something I'll open params.yaml and change it here and it will reflect in my model
